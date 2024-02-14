@@ -1,0 +1,114 @@
+* {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.root-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text {
+  padding: 2em;
+  border-bottom: 5px solid hsl(0, 4%, 90%);
+}
+
+#header-welcome {
+  flex-grow: 1;
+  text-align: center; /* Optional: Center the text within its space */
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 5px solid hsl(0, 2%, 54%);
+  padding: 1em;
+  font-size: 1em;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav-list > li > a,
+.header-nav-list > li > Navlink,
+.header-nav-list > li > :link {
+  color: rgb(142, 141, 141);
+  text-decoration: none;
+  margin: 5px;
+  align-items: center;
+  display: flex;
+  padding: 1em;
+  border-radius: 40px;
+}
+
+#button-resume {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  margin: 2em;
+  padding: 1em;
+  border-radius: 40px;
+  background-color: rgb(230, 230, 230);
+}
+
+#header-circle {
+  background-color: hsla(0, 2%, 54%, 0.399);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 6em;
+  width: 6em;
+}
+
+#circle-text {
+  display: flex;
+  text-decoration: none;
+  background-color: rgb(253, 253, 253);
+  color: rgb(3, 3, 3);
+}
+
+#header-text li.active,
+nav.header-nav ul.header-nav-list li .active {
+  background-color: grey;
+  color: white;
+  text-shadow: 1px 1px black;
+  border: 1px solid white;
+}
+
+#about,
+#contact,
+#contact-p,
+#experience,
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+#button-Linkedin,
+#button-GitHub,
+#experience-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  margin: 30px;
+}
+
+#home-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  width: 1000px;
+}
