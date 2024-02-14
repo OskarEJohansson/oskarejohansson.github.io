@@ -13,7 +13,11 @@ const Home = () => {
 
   return (
     <div id="home">
-      <img src="./src/media/experience.png" id="home-img" alt="Picture" />
+      <img
+        src="https://drive.google.com/file/d/1ushmaQmOiqu4JpFDhY-vG86T1fhWVVlW/view?usp=share_link"
+        id="home-img"
+        alt="Picture"
+      />
       <button id="button-resume" onClick={handleDownloadClick}>
         Download
       </button>
