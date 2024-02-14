@@ -13,7 +13,11 @@ const Home = () => {
 
   return (
     <div id="home">
-      <img src="./src/media/experience.png" id="home-img" alt="Picture" />
+      <img
+        src="/oskarejohansson.github.io/src/media/experience.png"
+        id="home-img"
+        alt="Picture"
+      />
       <button id="button-resume" onClick={handleDownloadClick}>
         Download
       </button>
