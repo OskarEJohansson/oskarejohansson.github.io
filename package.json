@@ -1,8 +1,8 @@
 {
-  "name": "mysecondwebpage",
-  "homepage": "https://oskarejohansson.github.io/mysecondhomepage",
+  "name": "oskarjohansson.nu",
+  "homepage": "https://oskarejohansson.github.io/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
