@@ -5,12 +5,14 @@ const Home = () => {
     const pdfUrl =
       "https://drive.google.com/file/d/1F83C2RzfpTfrNTyMdsSC2VP4ETNUuW43/view?usp=share_link";
 
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "OskarJohanssonResume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    document.body
+      .appendChild(
+        Object.assign(document.createElement("a"), {
+          href: pdfUrl,
+          download: "OskarJohanssonResume.pdf",
+        })
+      )
+      .click();
   };
 
   return (
