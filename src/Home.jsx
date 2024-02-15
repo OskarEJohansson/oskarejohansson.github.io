@@ -1,3 +1,5 @@
+import experiencePNG from "./media/experience.png";
+
 const Home = () => {
   const handleDownloadClick = () => {
     const pdfUrl =
@@ -13,11 +15,7 @@ const Home = () => {
 
   return (
     <div id="home">
-      <img
-        src="/oskarejohansson.github.io/src/media/experience.png"
-        id="home-img"
-        alt="Picture"
-      />
+      <img src={experiencePNG} id="home-img" alt="Picture" />
       <button id="button-resume" onClick={handleDownloadClick}>
         Download
       </button>
