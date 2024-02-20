@@ -84,8 +84,16 @@ nav.header-nav ul.header-nav-list li .active {
 #about,
 #contact,
 #contact-p,
-#experience,
 #home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.experience,
+.experience > * {
   display: flex;
   flex-direction: column;
   justify-content: center;
